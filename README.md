@@ -32,7 +32,7 @@ docker run -it -v $pwd:/home \
 
 - PS: *If Docker commands do not work, run `systemctl start docker` as root and try again*  
 
-## Configure Git
+- Configure Git
 
 ```
 git config --global http.proxy http://proxy-url:port
