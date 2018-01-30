@@ -74,7 +74,8 @@ environment.yml
   obtain      
   scrub       
   explore     
+  model 
   interpret   
-  model       
+  
   tests
 ```
