@@ -7,17 +7,18 @@
 
 - SSH into the Server
 
-- Pull a Docker Container 
+- Pull a Docker Container from https://hub.docker.com/u/eadlab/dashboard/
 
 ```
 docker pull <image>
 docker images
 ```
 
-- Get the code for your project
+- Get the code for your project if it exists, or clone *this* repository
 
 ```
 git clone git-url
+# git clone https://github.com/dushyantkhosla/ds-cookiecutter.git ./project-01
 ```
 
 - Start a Docker Container using the appropriate image, map ports and mirror directories
