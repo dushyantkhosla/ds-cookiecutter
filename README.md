@@ -50,7 +50,7 @@ README.md
 environment.yml
 
 ./data:
-  interim   
+  interim                 
   processed 
   raw
 
