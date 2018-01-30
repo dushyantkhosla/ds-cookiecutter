@@ -39,3 +39,42 @@ git config --global http.proxy http://proxy-url:port
 git config --global user.email 'you@pmi.com'
 git config --global user.name 'FirstName LastName'
 ```
+
+## Directory Structure
+
+```
+./
+DOCKERFILE      
+Jenkinsfile     
+README.md       
+environment.yml
+
+./data:
+  interim   
+  processed 
+  raw
+
+./figures:
+
+./models:
+
+./notebooks:
+  01-Obtain.ipynb    
+  02-Scrub.ipynb     
+  03-Explore.ipynb   
+  04-Model.ipynb     
+  05-iNterpret.ipynb
+
+./references:
+
+./reports:
+
+./src:
+  __init__.py 
+  obtain      
+  scrub       
+  explore     
+  interpret   
+  model       
+  tests
+```
