@@ -28,7 +28,7 @@ docker run -it -v $pwd:/home \
                -p 8080:8080 \
                -p 5000:5000 \
                -p 3128:3128 \
-               docker.ocean.pmicloud.biz/<tag>
+               your-docker-image
 ```
 
 - PS: *If Docker commands do not work, run `systemctl start docker` as root and try again*  
@@ -37,7 +37,7 @@ docker run -it -v $pwd:/home \
 
 ```
 git config --global http.proxy http://proxy-url:port
-git config --global user.email 'you@pmi.com'
+git config --global user.email 'you@domain.com'
 git config --global user.name 'FirstName LastName'
 ```
 
