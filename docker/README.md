@@ -7,4 +7,3 @@
 - Installs the PyData stack (pandas, jupyter, scikit-learn, seaborn)
 - Sets up jupyterlab extensions for Widgets and bqplot
 - Installs graphviz
-- Set up `Jenkinsfile` and /src/ for packaging
