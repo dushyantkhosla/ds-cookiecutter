@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Dushyant Khosla <dushyant.khosla@pmi.com>
+MAINTAINER Dushyant Khosla
 
 # === COPY FILES ===
 
